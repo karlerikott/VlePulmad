@@ -59,7 +59,8 @@
   margin-top: 100px;
 }
 
-.tsitaat{
+.card{
+  margin-top: 20px;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -68,4 +69,16 @@
 }
 .card-text1 {
   color: #ab1e02;
+}
+.card2 {
+  background-image: url('images/hands-2.jpg');
+  background-size: 100% 300px;
+  color: white;
+  width: 60%;
+  margin-left: 20%;
+}
+.joon {
+  width: 25%;
+  height: 10px;
+  background-color: white;
 }
