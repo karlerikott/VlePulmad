@@ -83,3 +83,28 @@
   height: 10px;
   background-color: white;
 }
+
+#videoCarousel {
+  margin: 5%;
+}
+
+footer {
+  margin: 20px;
+  height: 450px;
+  font-size: larger;
+}
+
+#footer-must {
+  background-color: black;
+}
+
+footer #icon {
+  height: 25px;
+  width: 25px;
+  margin-right: 25px;
+}
+
+#footer-pilt {
+  height: 150px;
+  width: 300px;
+}
