@@ -1,10 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body></body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Teenused</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+  <style>
+    #sisu {
+      font-size: 20px;
+    }
+
+    #tekst {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    #pealkiri {
+      margin-top: 50px;
+      text-align: center;
+    }
+
+    #sisu img{
+      height: 500px;
+      width: 550px;
+      margin-right: 40px;
+    }
+
+    #kirjeldus p{
+      padding-bottom: 20px;
+      padding-top: 20px;
+    }
+
+    .col-lg-6, .col-lg-12, .card-text2, .card-title2 {
+      padding-bottom: 30px
+    }
+
+    .card1 {
+      background-color: #e3bb86;
+    }
+
+    .card-text1 {
+      color: #ab1e02;
+    }
+
+    .card2 {
+      background-image: url('images/hands-2.jpg');
+      background-size: 100% 300px;
+      color: white;
+      width: 60%;
+      margin-left: 20%;
+    }
+
+    hr {
+      width: 25%;
+      height: 10px;
+      background-color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="py-2">
+    <div class="container-fluid">
+      <div class="row text-center">
+        <div class="col-1 mt-5">
+          <p>HELISTA</p>
+          <h4>112</h4>
+        </div>
+        <div class="col-1 mt-5 mb-0">
+          <a class="logo" href="images/call.png"><img src="images/call.png" /></a>
+        </div>
+        <div class="col-sm mb-0">
+          <a class="icon" href="images/logo.JPG"><img src="images/logo.JPG" /></a>
+        </div>
+        <div class="col-2 mt-4 mb-0">
+          <a class="logo" href="images/shop.JPG"><img src="images/shop.JPG" /></a>
+          <h3>KORVI</h3>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div id="presentation">
+    <!-- navigatsioon -->
+    <container>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow" id="mainNav">
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">MEIST</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">GALERII</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">TEENUSED</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">POOD</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">BLOGI</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">KONTAKT</a></li>
+          </ul>
+        </div>
+      </nav>
+    </container>
+  </div>
+  <div class="container-fluid">
+    <!-- sisu -->
+    <div id="sisu" class="row">
+      <div class="col-lg-12">
+        <div id="pealkiri">
+          <h1 class="mb-4">PULMAD</h1>
+        </div>
+        <div id="tekst">
+          <p>Oleme spetsialiseerunud täistteenindusele, tagades igale paarile, keda teenindame, personaalse kogemuse.
+            Võtame
+            vastu piiratud
+            arvu pulmapidu igal aastal, et saaksime pühendada piiramatult tunde teie väga olulisele
+            planeerimisprotsessile.
+            Kõik kolm teenust
+            allpoool on ette nähtud.
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-6"><img src="images/flowers.jpg" class="img-fluid float-right"/></div>
+      <div id="kirjeldus" class="col-lg-6">
+        <h1 class="mb-1">Banketid</h1>
+        <p>Pulmade banketid</p>
+        <p>Pruutneitsi banketid</p>
+        <p>Korsaažid</p>
+        <p>Boutonmieres</p>
+        <button type="button" class="btn btn-danger btn-lg btn-block">EUR 1000/-</button>
+      </div>
+      <div class="col-lg-6"><img src="images/hands.jpg" class="img-fluid float-right"/></div>
+      <div id="kirjeldus" class="col-lg-6">
+        <h1 class="mb-1">Tseremooniad + Banketid</h1>
+        <p>Pulmade banketid</p>
+        <p>Pruutneitsi banketid</p>
+        <p>Korsaažid</p>
+        <p>Boutonmieres</p>
+        <button type="button" class="btn btn-danger btn-lg btn-block">EUR 5000/-</button>
+      </div>
+      <div class="col-lg-6"><img src="images/wedding-3.jpg" class="img-fluid float-right"/></div>
+      <div id="kirjeldus" class="col-lg-6">
+        <h1 class="mb-1">Täispakett</h1>
+        <p>Pulmade banketid</p>
+        <p>Pruutneitsi banketid</p>
+        <p>Korsaažid</p>
+        <p>Boutonmieres</p>
+        <button type="button" class="btn btn-danger btn-lg btn-block">EUR 10000/-</button>
+      </div>
+      <div class="col-lg-12">
+        <div class="card1 text-center">
+          <div class="card-body">
+            <h4 class="card-title">"Olime väga põnevil, kuid kõik oli veelgi enam, mida lootsime!"</h4>
+            <p class="card-text1">Anton Buketov</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-12">
+        <div class="card2 text-center">
+          <div class="card-body">
+            <h3 class="card-title2">Muudame teie pulmad täiuslikuks</h4>
+            <h4 class="card-text2">Sisesta oma e-post</h4>
+            <hr>
+            <button type="button" class="btn btn-warning btn-lg">Saata päring</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>
