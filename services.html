@@ -25,18 +25,22 @@
       text-align: center;
     }
 
-    #sisu img{
+    #sisu img {
       height: 500px;
       width: 550px;
       margin-right: 40px;
     }
 
-    #kirjeldus p{
+    #kirjeldus p {
       padding-bottom: 20px;
       padding-top: 20px;
+      margin-right: 30%;
     }
 
-    .col-lg-6, .col-lg-12, .card-text2, .card-title2 {
+    .col-lg-6,
+    .col-lg-12,
+    .card-title2,
+    #footer-pealkiri {
       padding-bottom: 30px
     }
 
@@ -60,6 +64,32 @@
       width: 25%;
       height: 10px;
       background-color: white;
+    }
+
+    footer {
+      height: 450px;
+      font-size: larger;
+    }
+
+    #footer-must {
+      background-color: black;
+    }
+
+    footer #icon {
+      height: 25px;
+      width: 25px;
+      margin-right: 25px;
+    }
+
+    #footer-pilt {
+      height: 150px;
+      width: 300px;
+    }
+
+    #sisu-pilt {
+      height: 80px !important;
+      width: 300px !important;
+      margin-left: 2%;
     }
   </style>
 </head>
@@ -111,8 +141,9 @@
     <div id="sisu" class="row">
       <div class="col-lg-12">
         <div id="pealkiri">
-          <h1 class="mb-4">PULMAD</h1>
+          <h1>PULMAD</h1>
         </div>
+        <div class="col-12 text-center"> <img id="sisu-pilt" src="images/logo-piece.jpg"/> </div>
         <div id="tekst">
           <p>Oleme spetsialiseerunud täistteenindusele, tagades igale paarile, keda teenindame, personaalse kogemuse.
             Võtame
@@ -124,7 +155,7 @@
           </p>
         </div>
       </div>
-      <div class="col-lg-6"><img src="images/flowers.jpg" class="img-fluid float-right"/></div>
+      <div class="col-lg-6"><img src="images/flowers.jpg" class="img-fluid float-right" /></div>
       <div id="kirjeldus" class="col-lg-6">
         <h1 class="mb-1">Banketid</h1>
         <p>Pulmade banketid</p>
@@ -133,7 +164,7 @@
         <p>Boutonmieres</p>
         <button type="button" class="btn btn-danger btn-lg btn-block">EUR 1000/-</button>
       </div>
-      <div class="col-lg-6"><img src="images/hands.jpg" class="img-fluid float-right"/></div>
+      <div class="col-lg-6"><img src="images/hands.jpg" class="img-fluid float-right" /></div>
       <div id="kirjeldus" class="col-lg-6">
         <h1 class="mb-1">Tseremooniad + Banketid</h1>
         <p>Pulmade banketid</p>
@@ -142,7 +173,7 @@
         <p>Boutonmieres</p>
         <button type="button" class="btn btn-danger btn-lg btn-block">EUR 5000/-</button>
       </div>
-      <div class="col-lg-6"><img src="images/wedding-3.jpg" class="img-fluid float-right"/></div>
+      <div class="col-lg-6"><img src="images/wedding-3.jpg" class="img-fluid float-right" /></div>
       <div id="kirjeldus" class="col-lg-6">
         <h1 class="mb-1">Täispakett</h1>
         <p>Pulmade banketid</p>
@@ -163,14 +194,70 @@
         <div class="card2 text-center">
           <div class="card-body">
             <h3 class="card-title2">Muudame teie pulmad täiuslikuks</h4>
-            <h4 class="card-text2">Sisesta oma e-post</h4>
-            <hr>
-            <button type="button" class="btn btn-warning btn-lg">Saata päring</button>
+              <h4 class="card-text2">Sisesta oma e-post</h4>
+              <hr>
+              <button type="button" class="btn btn-warning btn-lg">Saata päring</button>
           </div>
         </div>
       </div>
     </div>
   </div>
+  <!-- footer -->
+  <footer class="w-100 bg-dark my-3">
+    <div id="footer-must" class="w-100 h-75 mx-auto d-inline-block">
+      <div class="row h-100">
+        <div class="col-3 ml-5 my-auto text-left text-white">
+          <div class="col-12">
+            <p> <img id="footer-pilt" src="images/logo-black.jpg" class="img-fluid" /> </p>
+          </div>
+          <div class="col-12">
+            <p>
+              <img id="icon" src="images/phone.png" class="img-fluid" />
+              112
+            </p>
+          </div>
+          <div class="col-12">
+            <p>
+              <img id="icon" src="images/mail.jpg" class="img-fluid" />
+              antonBuk@ut.ee
+            </p>
+          </div>
+          <div class="col-12">
+            <p>
+              <img id="icon" src="images/location.png" class="img-fluid" />
+              Narva, 123, purum
+            </p>
+          </div>
+        </div>
+
+
+        <div class="col-4 ml-5 my-auto text-left text-white">
+          <h3 id="footer-pealkiri">ETTEVÕTTE KOHTA</h3>
+          <p>Pulmad on inimeste elus olulised sündmused ja sellisena on paarid sageli nõus kulutama märkimisväärne summa
+            raha, et tagada nende pulmad on hästi korraldatud. Pulmakorraldajad on sageli kasutavad paarid, kes töötavad
+            pikki tunde ja on vähe vaba aega pulmapaikade hankimine ja haldamine.</p>
+        </div>
+        <div class="col-3 ml-5 my-auto text-center text-white">
+          <h3 id="footer-pealkiri">NÄDALA UUDISKIRI</h3>
+          <div class="input-group mb-3 text-center">
+            <input type="text" class="form-control" placeholder="SINU NIMI">
+          </div>
+          <div class="input-group mb-3 text-center">
+            <input type="text" class="form-control" placeholder="YOUR EMAIL">
+          </div>
+          <button type="button" class="btn btn-warning btn-lg btn-block">TELLI</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="w-100 h-25 my-auto bg-danger text-center">
+      <div class="row h-100">
+        <div class="col-12 text-center text-white">
+          <p class="mt-4">Kõik õigused kaitstud Kasutustingimused ja privaatsuspoliitka</p>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
