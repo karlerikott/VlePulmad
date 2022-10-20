@@ -28,11 +28,8 @@
   width: auto;
   background-repeat: no-repeat;
   background-size: cover;
+  text-align: center;
 }
-
-#wedding img {
-}
-
 
 #description {
   height: 400px;
@@ -59,7 +56,7 @@
   margin-top: 100px;
 }
 
-.card{
+.card {
   margin-top: 20px;
   margin-left: 20px;
   margin-right: 20px;
@@ -71,7 +68,7 @@
   color: #ab1e02;
 }
 .card2 {
-  background-image: url('images/hands-2.jpg');
+  background-image: url("images/hands-2.jpg");
   background-size: 100% 300px;
   color: white;
   width: 60%;
@@ -81,4 +78,127 @@
   width: 25%;
   height: 10px;
   background-color: white;
+}
+
+.presentation {
+  text-align: center;
+  border: 5px solid #ffff00;
+}
+
+.soodustus {
+  display: flex;
+  margin-top: 48px;
+  padding-top: 80px;
+  background-color: #cbc008;
+  text-align: center;
+  height: 209px;
+  padding-left: 155px;
+  padding-right: 25px;
+}
+
+.tereTulemast {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.tereTulemast h2 {
+  color: #ab1e02;
+  font-size: 36px;
+}
+
+.tereTulemast img {
+  height: 106px;
+  width: 430px;
+}
+
+.võimalused {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 196px;
+  margin-right: 164px;
+}
+
+.võimalused div {
+  padding: 15px;
+  text-align: center;
+}
+
+.võimalused div img {
+  height: 320px;
+  width: 424px;
+  outline: 3px solid white;
+  outline-offset: -14px;
+}
+
+.võimalused div h1 {
+  padding-top: 20px;
+  font-size: 28px;
+}
+
+.võimalused h1 {
+  padding-top: 15px;
+}
+
+.telli {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.telli button {
+  display: block;
+  margin: 0 auto;
+  background-color: #cbc008;
+  height: 75px;
+  width: 269px;
+}
+
+.meistDescription {
+  background-color: rgba(211, 181, 140, 100);
+  height: 783px;
+  display: flex;
+}
+
+.kook {
+  padding-top: 107px;
+  padding-bottom: 107px;
+  margin-left: 151px;
+  margin-right: 89px;
+  width: 828px;
+  height: 569px;
+}
+
+.kook img {
+  min-width: 100%;
+}
+
+.tekst {
+  margin-left: 88px;
+  margin-top: 107px;
+}
+
+.lilled img {
+  min-width: 100%;
+  min-height: auto;
+  margin-bottom: 89px;
+}
+
+.inspiratsioon {
+  height: 824px;
+  background-color: rgba(211, 181, 140, 100);
+  display: flex;
+}
+
+.inspInfo {
+  padding-top: 139px;
+  padding-left: 30px;
+}
+
+.inspInfo h3,
+p {
+  font-size: 28px;
+}
+
+button {
+  border: none;
 }
