@@ -22,7 +22,6 @@
   height: 100%;
 }
 
-
 #presentation {
   background-image: url("images/wedding2.jpg");
   height: 1061px;
@@ -33,7 +32,6 @@
 
 #wedding img {
 }
-
 
 #description {
   height: 400px;
@@ -60,7 +58,7 @@
   margin-top: 100px;
 }
 
-.card{
+.card {
   margin-top: 20px;
   margin-left: 20px;
   margin-right: 20px;
@@ -72,7 +70,7 @@
   color: #ab1e02;
 }
 .card2 {
-  background-image: url('images/hands-2.jpg');
+  background-image: url("images/hands-2.jpg");
   background-size: 100% 300px;
   color: white;
   width: 60%;
@@ -86,6 +84,9 @@
 
 #videoCarousel {
   margin: 5%;
+}
+#imgCarousel {
+  margin-bottom: 5%;
 }
 
 footer {
@@ -107,4 +108,19 @@ footer #icon {
 #footer-pilt {
   height: 150px;
   width: 300px;
+}
+
+.my-nav {
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+}
+
+.carousel-item {
+  height: 100vh;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
